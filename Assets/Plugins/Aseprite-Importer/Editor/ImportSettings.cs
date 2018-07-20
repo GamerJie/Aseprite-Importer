@@ -14,7 +14,7 @@ namespace MetaSprite {
 public enum AnimControllerOutputPolicy {
     Skip, CreateOrOverride
 }
-[CreateAssetMenu(menuName = "ASE Import Settings")]
+
 public class ImportSettings : ScriptableObject {
 
     public int ppu = 48;
